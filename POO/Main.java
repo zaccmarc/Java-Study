@@ -7,6 +7,7 @@ public class Main {
         // Testando o controle remoto
         controle.ligar();
         controle.abrirMenu();
+        controle.maisVolume();
+        controle.menosVolume();
     }
 }
-  
