@@ -1,4 +1,4 @@
-package POO;
+package POO.BasicConcepts;
 
 public interface Controlador {
     public void ligar();

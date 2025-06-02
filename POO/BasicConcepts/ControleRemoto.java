@@ -1,4 +1,4 @@
-package POO;
+package POO.BasicConcepts;
 
 public class ControleRemoto implements Controlador {
     private int volume;

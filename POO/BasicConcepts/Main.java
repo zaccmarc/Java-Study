@@ -1,4 +1,4 @@
-package POO;
+package POO.BasicConcepts;
 
 public class Main {
     public static void main(String[] args) {
