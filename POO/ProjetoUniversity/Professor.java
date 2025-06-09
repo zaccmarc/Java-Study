@@ -26,7 +26,7 @@ public class Professor extends Pessoa {
         this.salario = salario;
     }
 
-    public void receberAumento(float aumento) {
+    public final void receberAumento(float aumento) {
         this.salario += aumento;
         System.out.println("Salário aumentado para: " + this.salario);
     }

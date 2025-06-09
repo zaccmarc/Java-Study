@@ -1,6 +1,6 @@
 package POO.ProjetoUniversity;
 
-public class Aluno extends Pessoa { // Assuming 'Pessoa' is the correct class name
+public class Aluno extends Pessoa {
     private int matr;
     private String curso;
 
@@ -26,10 +26,7 @@ public class Aluno extends Pessoa { // Assuming 'Pessoa' is the correct class na
         this.curso = curso;
     }
 
-    public void cancelarMatr() {
-        System.out.println("Matrícula será cancelada");
-        this.matr = 0;
-        System.out.println("Matrícula cancelada com sucesso!");
-        this.curso = null;
+    public void pagarMensalidade() {
+        System.out.println("Pagando mensalidade do aluno " + getNome());
     }
 }
